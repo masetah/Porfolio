@@ -1,15 +1,18 @@
 import React from 'react';
 import Navigation from './Components/Navbar'
-import Timeline from './Components/Timeline'
+import Sidebar from './Components/Sidebar'
+import Experience from './Components/Experience'
+import Footer from './Components/Footer'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      <h1>Mase Taherian</h1>
-      <Timeline/>
-
+      <Sidebar/>
+      <Experience/>
+      <Footer/>
     </div>
   );
 }
