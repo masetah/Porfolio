@@ -3,7 +3,6 @@ import {
   Navbar,
   NavbarBrand,
   Nav,
-  NavItem,
   NavLink } from 'reactstrap/lib';
 
 class Navigation extends Component {
@@ -13,12 +12,8 @@ class Navigation extends Component {
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">Home</NavbarBrand>
             <Nav className="ml-auto" navbar>
-              <NavItem>
                   <NavLink href=" ">About</NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink href=" ">Contact</NavLink>
-                </NavItem>
             </Nav>
         </Navbar>
       </div>
