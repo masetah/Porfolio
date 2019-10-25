@@ -1,24 +1,69 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 import {
+  Collapse,
   Navbar,
+  NavbarToggler,
   NavbarBrand,
   Nav,
-  NavLink } from 'reactstrap/lib';
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
-class Navigation extends Component {
-  render() {
+  const Navigation = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const toggle = () => setIsOpen(!isOpen);
+  // render() {
     return (
       <div className="navBar">
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Home</NavbarBrand>
-            <Nav className="ml-auto" navbar>
-                  <NavLink href=" ">About</NavLink>
-                  <NavLink href=" ">Contact</NavLink>
-            </Nav>
-        </Navbar>
+         <Navbar color="light" light expand="md">
+        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink href="/about">About Me</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/resume">Resume</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact"> Contact </NavLink>
+            </NavItem>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Projects
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                <NavLink href=" "> AppPraise Me </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href="https://masetah.github.io"> Star Wars Galacticpedia</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href="https://travel-too.herokuapp.com"> Travel Too </NavLink>
+                </DropdownItem>
+                <DropdownItem divider/>
+                <DropdownItem>
+                <NavLink href="/projects"> Projects Page </NavLink>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+          </Nav>
+        </Collapse>
+      </Navbar>
       </div>
     );
   }
-}
+// }
 
 export default Navigation;
+
+
+
+
+
