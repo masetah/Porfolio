@@ -19,9 +19,9 @@ class Home extends Component {
                     </div> */}
                 </Cell>
                 <div className="info-div">
-                        <h2>Full Stack Web Developer</h2>
+                        <h2>Full Stack Software Engineer</h2>
                         <hr/>
-                        <p>ReactJS | HTML/CSS | JavaScript | NodeJS | Express | Ruby on Rails | PostgreSQL | MongoDB </p>
+                        <p>ReactJS | HTML/CSS | JavaScript | NodeJS | Express | Ruby on Rails | PostgreSQL | MongoDB | REST | Project Management </p>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/masetaherian/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"/>

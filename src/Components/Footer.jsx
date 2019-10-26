@@ -12,7 +12,7 @@ class Footer extends Component {
         return (
         <div className="footer">
             <Navbar color="faded" light>
-                <NavbarBrand href="/" className="mr-auto"><img className="mace" src="/Logos/mace.png" alt="Profile site"/> Mase Taherian 2019 </NavbarBrand>
+                <NavbarBrand href="/" className="mr-auto"><img className="mace" src="/Logos/mace.png" alt="Profile site"/> Mace Barbarian 2019 </NavbarBrand>
                 <Nav>
                     <NavLink id="github" href="https://github.com/masetah"  ><img className="logo" src="/Logos/github-logo.png" alt="Github Logo"/> </NavLink> 
                     <NavLink id="linkedin" href="https://www.linkedin.com/in/masetaherian/"  ><img className="logo" src="/Logos/linkedin.png" alt="Linkedin Logo"/> </NavLink>
