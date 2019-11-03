@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Main from './Components/Main';
-
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import {Link} from 'react-router-dom';
 import './App.css';

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Footer from '../Components/Footer';
 import {
     Tabs, 
     Tab, 
@@ -29,7 +30,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button colored disabled>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                         <IconButton name ="share" />
@@ -42,7 +43,20 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button href="https://github.com/masetah/WerqOut"colored>Github</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button colored disabled>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                        <IconButton name ="share" />
+                        </CardMenu>                    
+                    </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', backgroundImage: 'url("public/portfolio-screenshot.png") center / cover' }}>Portfolio Site</CardTitle>
+                        <CardText>
+                        This will be where the description for the project goes.
+                        </CardText>
+                        <CardActions border>
+                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
+                            <Button colored disabled>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                         <IconButton name ="share" />
@@ -103,6 +117,7 @@ class Projects extends Component {
                         <div className="content">{this.toggleCategories()}</div> 
                     </Cell>
                 </Grid>
+                <Footer/>
         </div>
         )
     }

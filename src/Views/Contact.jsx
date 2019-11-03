@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Footer from '../Components/Footer';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 
 class Contact extends Component {
@@ -44,11 +45,11 @@ class Contact extends Component {
                                 live:masetaherian
                             </ListItemContent>
                         </ListItem>
-
                     </List>
                    </div>
                </Cell>
            </Grid>
+           <Footer/>
         </div>
         )
     }

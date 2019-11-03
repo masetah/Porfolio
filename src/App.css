@@ -27,10 +27,13 @@
   width: 150px;
 }
 .info-div{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   background: black;
   opacity: .8;
   width: 75%;
-  margin: auto;
+  /* margin: auto; */
   border-radius: 10px;
 }
 .info-div h2{
@@ -62,10 +65,7 @@
   font-size: 5em;
   padding: 8px;
 }
-.resume iframe{
-  width:90%;
-  height: 1000px;
-}
+
 .projects-grid{
   display: flex;
 }
@@ -119,6 +119,21 @@
   color: black;
   display: inline-block;
   align-content: center;
+}
+/* resume page css */
+.resume-right-col{
+  background: #27221F;
+  color:white;
+  padding: 2em;
+  padding-bottom:60px;
+}
+.resume-left-col{
+  padding-bottom: 60px;
+}
+.skill-icons i{
+  color:white;
+  font-size: 5em;
+  padding: 8px;
 }
 
 /* Images */
