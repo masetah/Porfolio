@@ -20,11 +20,12 @@ class Projects extends Component {
     }
 
     toggleCategories(){
+        //ALL++++++++++++++++++++++++
         if(this.state.activeTab===0){
             return(
                 <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>AppPraise Me</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(apppraiseme.png) center / cover' }}>AppPraise Me</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
                         </CardText>
@@ -50,7 +51,79 @@ class Projects extends Component {
                         </CardMenu>                    
                     </Card>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', backgroundImage: 'url("public/portfolio-screenshot.png") center / cover' }}>Portfolio Site</CardTitle>
+                        <CardTitle className="portfolio-card" style={{color: '#fff', height: '176px', backgroundImage: "url('portfolio-screenshot.png') "}}>Portfolio Site</CardTitle>
+                        <CardText>
+                        This will be where the description for the project goes.
+                        </CardText>
+                        <CardActions border>
+                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
+                            <Button colored disabled>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                        <IconButton name ="share" />
+                        </CardMenu>                    
+                    </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url("starwars.png") center / cover' }}>Star Wars Galactipedia</CardTitle>
+                        <CardText>
+                        This will be where the description for the project goes.
+                        </CardText>
+                        <CardActions border>
+                            <Button href="https://github.com/masetah/Star-Wars-Galactipedia" colored>Github</Button>
+                            <Button href="https://masetah.github.io" colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                        <IconButton name ="share" />
+                        </CardMenu>                    
+                    </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(traveltoo.png) center / cover' }}>Travel Too</CardTitle>
+                        <CardText>
+                        This will be where the description for the project goes.
+                        </CardText>
+                        <CardActions border>
+                            <Button href="https://github.com/masetah/TravelToo"colored>Github</Button>
+                            {/* <Button href="https://github.com/masetah/TravelToo2"colored>Individual Github</Button> */}
+                            <Button href="https://travel-too.herokuapp.com"colored>Live Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                        <IconButton name ="share" />
+                        </CardMenu>                    
+                    </Card>
+                </div>
+            )
+            //React+++++++++++++++++++++
+            }else if(this.state.activeTab===1){
+            return(
+                <div className="projects-grid">
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(apppraiseme.png) center / cover' }}>AppPraise Me</CardTitle>
+                        <CardText>
+                        This will be where the description for the project goes.
+                        </CardText>
+                        <CardActions border>
+                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
+                            <Button colored disabled>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                        <IconButton name ="share" />
+                        </CardMenu>                    
+                    </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Werq Out</CardTitle>
+                        <CardText>
+                        This will be where the description for the project goes.
+                        </CardText>
+                        <CardActions border>
+                            <Button href="https://github.com/masetah/WerqOut"colored>Github</Button>
+                            <Button colored disabled>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                        <IconButton name ="share" />
+                        </CardMenu>                    
+                    </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle className="portfolio-card" style={{color: '#fff', height: '176px', backgroundImage: "url('portfolio-screenshot.png') "}}>Portfolio Site</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
                         </CardText>
@@ -64,11 +137,12 @@ class Projects extends Component {
                     </Card>
                 </div>
             )
-        }else if (this.state.activeTab===1){
+
+        }else if (this.state.activeTab===2){
             return(
                 <div className="project-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Star Wars Galactipedia</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url("starwars.png") center / cover' }}>Star Wars Galactipedia</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
                         </CardText>
@@ -82,11 +156,12 @@ class Projects extends Component {
                     </Card>
                 </div>
             )
-        }else if(this.state.activeTab===2){
+            //Express+++++++++++++++++++++
+        }else if(this.state.activeTab===3){
             return(
                 <div className="project-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Travel Too</CardTitle>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(traveltoo.png) center / cover' }}>Travel Too</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
                         </CardText>
@@ -103,14 +178,14 @@ class Projects extends Component {
             )
         }
     }
-
     render() {
         return (
         <div className="category-tabs">
             <Tabs activeTab={this.state.activeTab} onChange={(tabId)=>this.setState({ activeTab: tabId})}ripple>
+                <Tab>All</Tab>
                <Tab>React</Tab>
-               <Tab>JavaScript</Tab>
-               <Tab>EJS</Tab>
+               <Tab>JQuery</Tab>
+               <Tab>Express</Tab>
             </Tabs>
                 <Grid >
                     <Cell col={12}>
