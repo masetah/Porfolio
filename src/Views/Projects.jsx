@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 import {
     Tabs, 
     Tab, 
@@ -24,7 +24,7 @@ class Projects extends Component {
         if(this.state.activeTab===0){
             return(
                 <div className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(apppraiseme.png) center / cover' }}>AppPraise Me</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -37,7 +37,7 @@ class Projects extends Component {
                         <IconButton name ="share" />
                         </CardMenu>                    
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Werq Out</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -50,7 +50,7 @@ class Projects extends Component {
                         <IconButton name ="share" />
                         </CardMenu>                    
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle className="portfolio-card" style={{color: '#fff', height: '176px', backgroundImage: "url('portfolio-screenshot.png') "}}>Portfolio Site</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -63,7 +63,7 @@ class Projects extends Component {
                         <IconButton name ="share" />
                         </CardMenu>                    
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url("starwars.png") center / cover' }}>Star Wars Galactipedia</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -76,7 +76,7 @@ class Projects extends Component {
                         <IconButton name ="share" />
                         </CardMenu>                    
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(traveltoo.png) center / cover' }}>Travel Too</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -96,7 +96,7 @@ class Projects extends Component {
             }else if(this.state.activeTab===1){
             return(
                 <div className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(apppraiseme.png) center / cover' }}>AppPraise Me</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -109,7 +109,7 @@ class Projects extends Component {
                         <IconButton name ="share" />
                         </CardMenu>                    
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Werq Out</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -122,7 +122,7 @@ class Projects extends Component {
                         <IconButton name ="share" />
                         </CardMenu>                    
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle className="portfolio-card" style={{color: '#fff', height: '176px', backgroundImage: "url('portfolio-screenshot.png') "}}>Portfolio Site</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -141,7 +141,7 @@ class Projects extends Component {
         }else if (this.state.activeTab===2){
             return(
                 <div className="project-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url("starwars.png") center / cover' }}>Star Wars Galactipedia</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -160,7 +160,7 @@ class Projects extends Component {
         }else if(this.state.activeTab===3){
             return(
                 <div className="project-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(traveltoo.png) center / cover' }}>Travel Too</CardTitle>
                         <CardText>
                         This will be where the description for the project goes.
@@ -192,7 +192,7 @@ class Projects extends Component {
                         <div className="content">{this.toggleCategories()}</div> 
                     </Cell>
                 </Grid>
-                <Footer/>
+                {/* <Footer/> */}
         </div>
         )
     }

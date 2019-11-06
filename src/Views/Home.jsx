@@ -24,13 +24,10 @@ class Home extends Component {
                                 <i className="fab fa-linkedin-square" aria-hidden="true"/>
                             </a>
                             <a href="https://github.com/masetah" rel="noopener noreferrer" target="_blank">
-                            <i class="fab fa-github-square"/>
+                            <i className="fab fa-github-square"/>
                             </a>
                             <a href="https://www.facebook.com/mase.taherian" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-facebook-square" aria-hidden="true"/>
-                            </a>
-                            <a href="https://twitter.com/masetaherian" rel="noopener noreferrer" target="_blank">
-                            <i className="fab fa-twitter-square" aria-hidden="true"/>
                             </a>
                         </div>
                     </div>

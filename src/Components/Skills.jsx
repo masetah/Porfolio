@@ -20,11 +20,11 @@ class Skills extends Component {
                     <p style={{color: "white", textAlign:"center"}}>HTML</p> 
                     </div>
                     <div>
-                    <i class="fab fa-css3-alt" aria-hidden="true"/>
+                    <i className="fab fa-css3-alt" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>CSS</p> 
                     </div>
                     <div>
-                    <i class="fas fa-gem" aria-hidden="true"/>
+                    <i className="fas fa-gem" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>Ruby</p> 
                     </div>
                     <div>
@@ -32,23 +32,23 @@ class Skills extends Component {
                     <p style={{color: "white", textAlign:"center", paddingTop:"12px",paddingRight:"8px" }}>Rails</p> 
                     </div>
                     <div>
-                    <i class="fas fa-server" aria-hidden="true"/>
+                    <i className="fas fa-server" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>Express</p> 
                     </div>
                     <div>
-                    <i class="fab fa-node-js" aria-hidden="true"/>
+                    <i className="fab fa-node-js" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>NodeJS</p> 
                     </div>
                     <div>
-                    <i class="fas fa-database" aria-hidden="true"/>
+                    <i className="fas fa-database" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>PostgreSQL</p> 
                     </div>
                     <div>
-                    <i class="fas fa-database" aria-hidden="true"/>
+                    <i className="fas fa-database" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>MongoDB</p> 
                     </div>
                     <div>
-                    <i class="fab fa-github-square"></i>
+                    <i className="fab fa-github-square"></i>
                     <p style={{color: "white", textAlign:"center"}}>Github</p> 
                     </div>
                 </div>

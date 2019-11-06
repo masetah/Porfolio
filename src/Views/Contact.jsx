@@ -29,19 +29,19 @@ class Contact extends Component {
                         </ListItem>
                         <ListItem>
                             <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                                <i className="fab fa-linkedin-square" aria-hidden="true"/>
                                 masetaherian
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
-                            <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
+                            <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
                                 MaseTaherian@gmail.com
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
                             <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-skype" aria-hidden="true"/>
+                                <i className="fab fa-skype" aria-hidden="true"/>
                                 live:masetaherian
                             </ListItemContent>
                         </ListItem>
