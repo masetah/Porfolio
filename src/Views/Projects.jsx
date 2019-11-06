@@ -1,17 +1,12 @@
 import React, {Component} from 'react';
+import ProjectCard from '../Components/ProjectCard.jsx';
+
 // import Footer from '../Components/Footer';
 import {
     Tabs, 
     Tab, 
     Grid, 
-    Cell, 
-    Card, 
-    CardTitle, 
-    CardActions,
-    CardText, 
-    Button, 
-    CardMenu, 
-    IconButton} from 'react-mdl';
+    Cell } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -24,156 +19,102 @@ class Projects extends Component {
         if(this.state.activeTab===0){
             return(
                 <div className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(apppraiseme.png) center / cover' }}>AppPraise Me</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
-                            <Button colored disabled>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Werq Out</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/WerqOut"colored>Github</Button>
-                            <Button colored disabled>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle className="portfolio-card" style={{color: '#fff', height: '176px', backgroundImage: "url('portfolio-screenshot.png') "}}>Portfolio Site</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
-                            <Button colored disabled>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url("starwars.png") center / cover' }}>Star Wars Galactipedia</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/Star-Wars-Galactipedia" colored>Github</Button>
-                            <Button href="https://masetah.github.io" colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(traveltoo.png) center / cover' }}>Travel Too</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/TravelToo"colored>Github</Button>
-                            {/* <Button href="https://github.com/masetah/TravelToo2"colored>Individual Github</Button> */}
-                            <Button href="https://travel-too.herokuapp.com"colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
+                    {/* APPRAISEME APP */}
+                    <ProjectCard
+                    title="AppPraise Me"
+                    backgroundURL="apppraiseme.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/AppPraisMe"
+                    liveDemoLink="https://appraiseme.herokuapp.com"
+                    />
+                    {/* WERQOUT APP */}
+                    <ProjectCard
+                    title="Werq Out"
+                    backgroundURL="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/WerqOut"
+                    liveDemoLink=""
+                    /> 
+                    {/* PORTFOLIO SITE */}
+                    <ProjectCard
+                    title="Portfolio Site"
+                    backgroundURL="portfolio-screenshot.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/Portfolio"
+                    liveDemoLink=""
+                    /> 
+                    {/* STARWARS SITE */}
+                    <ProjectCard
+                    title="Star Wars Galactipedia"
+                    backgroundURL="starwars.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/Star-Wars-Galactipedia"
+                    liveDemoLink="https://masetah.github.io"
+                    /> 
+                    {/* TRAVEL TOO SITE */}
+                    <ProjectCard
+                    title="Travel Too"
+                    backgroundURL="traveltoo.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/TravelToo"
+                    liveDemoLink="https://travel-too.herokuapp.com"
+                    /> 
                 </div>
             )
             //React+++++++++++++++++++++
             }else if(this.state.activeTab===1){
             return(
                 <div className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(apppraiseme.png) center / cover' }}>AppPraise Me</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
-                            <Button colored disabled>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}>Werq Out</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/WerqOut"colored>Github</Button>
-                            <Button colored disabled>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle className="portfolio-card" style={{color: '#fff', height: '176px', backgroundImage: "url('portfolio-screenshot.png') "}}>Portfolio Site</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/AppPraisMe" colored>Github</Button>
-                            <Button colored disabled>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
+                    {/* APPRAISEME APP */}
+                    <ProjectCard
+                    title="AppPraise Me"
+                    backgroundURL="apppraiseme.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/AppPraisMe"
+                    liveDemoLink="https://appraiseme.herokuapp.com"
+                    />
+                    {/* WERQOUT APP */}
+                    <ProjectCard
+                    title="Werq Out"
+                    backgroundURL="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/WerqOut"
+                    liveDemoLink=""
+                    /> 
+                    {/* PORTFOLIO SITE */}
+                    <ProjectCard
+                    title="Portfolio Site"
+                    backgroundURL="portfolio-screenshot.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/Portfolio"
+                    liveDemoLink=""
+                    /> 
                 </div>
             )
 
         }else if (this.state.activeTab===2){
             return(
                 <div className="project-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url("starwars.png") center / cover' }}>Star Wars Galactipedia</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/Star-Wars-Galactipedia" colored>Github</Button>
-                            <Button href="https://masetah.github.io" colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
+                    <ProjectCard
+                    title="Star Wars Galactipedia"
+                    backgroundURL="starwars.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/Star-Wars-Galactipedia"
+                    liveDemoLink="https://masetah.github.io"
+                    /> 
                 </div>
             )
             //Express+++++++++++++++++++++
         }else if(this.state.activeTab===3){
             return(
                 <div className="project-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom:'35px'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(traveltoo.png) center / cover' }}>Travel Too</CardTitle>
-                        <CardText>
-                        This will be where the description for the project goes.
-                        </CardText>
-                        <CardActions border>
-                            <Button href="https://github.com/masetah/TravelToo"colored>Group Github</Button>
-                            <Button href="https://github.com/masetah/TravelToo2"colored>Individual Github</Button>
-                            <Button href="https://travel-too.herokuapp.com"colored>Live Demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                        <IconButton name ="share" />
-                        </CardMenu>                    
-                    </Card>
+                    <ProjectCard 
+                    title="Travel Too"
+                    backgroundURL="traveltoo.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/TravelToo"
+                    liveDemoLink="https://travel-too.herokuapp.com"
+                    /> 
                 </div>
             )
         }
