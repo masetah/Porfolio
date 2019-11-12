@@ -101,10 +101,12 @@ html{
   font-family: 'Anton', sans-serif;
 }
 .contact-grid p{
+  text-align: center;
   margin-top:25px;
   margin-right: 25px;
   margin-left: 25px;
   font-family: 'Oxygen', sans-serif;
+  width:50%;
   font-weight: bold;
 }
 .contact-grid hr{

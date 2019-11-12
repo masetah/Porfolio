@@ -14,7 +14,7 @@ class Contact extends Component {
                    alt="Mase Taherian"
                    style={{height: '225px', borderRadius: '25px'}}
                    />
-                   <p styel={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                   <p style={{width: '60%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I'd would enjoy discussing any opportunities your orgianization may have available.</p>
                </Cell>
                <Cell col={6}>
                    <h2>Contact Me</h2>
@@ -39,12 +39,12 @@ class Contact extends Component {
                                 MaseTaherian@gmail.com
                             </ListItemContent>
                         </ListItem>
-                        <ListItem>
+                        {/* <ListItem>
                             <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                 <i className="fab fa-skype" aria-hidden="true"/>
                                 live:masetaherian
                             </ListItemContent>
-                        </ListItem>
+                        </ListItem> */}
                     </List>
                    </div>
                </Cell>
