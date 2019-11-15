@@ -149,6 +149,16 @@ html{
   font-size: 5em;
   padding: 8px;
 }
+.contact-me{
+  padding:3%;
+  border-radius: 10px;
+  background: #52c234;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contact-form{
+  margin:5%;
+}
 
 /* Images */
 .logo{
