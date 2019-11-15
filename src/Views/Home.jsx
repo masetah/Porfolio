@@ -5,17 +5,23 @@ class Home extends Component {
     render() {
         return (
         <div className="home" >
-            <Grid className='banner'>
+            <Grid className="banner">
                 <Cell col={12}>
+                    <div >
                     <h1>MASE TAHERIAN</h1>
                     <h5>Dallas, Tx</h5>
+                    </div>
+
                     {/* <img  
                         src="https://icons-for-free.com/iconfiles/png/512/internet+web+webpage+website+window+icon-1320168140328914271.png" 
                         alt="web page icon"
                         className="web-page-icon"
                     /> */}
                 </Cell>
+                </Grid>
                 <div className="info-div">
+                <Grid >
+                    <Cell col={12}>
                         <h2>Full Stack Software Engineer</h2>
                         <hr/>
                         <p>ReactJS | HTML/CSS | JavaScript | NodeJS | Express | Ruby on Rails | PostgreSQL | MongoDB | REST | Project Management </p>
@@ -30,8 +36,10 @@ class Home extends Component {
                                 <i className="fab fa-facebook-square" aria-hidden="true"/>
                             </a>
                         </div>
-                    </div>
-            </Grid>
+                    </Cell>
+                </Grid>
+                </div>
+
             <Footer/>
         </div>
         )
