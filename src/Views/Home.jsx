@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 class Home extends Component {
     render() {
         return (
@@ -40,7 +40,7 @@ class Home extends Component {
                 </Grid>
                 </div>
 
-            <Footer/>
+            {/* <Footer/> */}
         </div>
         )
     }

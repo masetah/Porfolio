@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 import {Grid, Cell } from 'react-mdl';
 import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
@@ -86,10 +86,9 @@ class Contact extends Component {
                     </div>
                     </div>
                </Cell>
-               <Cell col={12}>
+               {/* <Cell col={12}>
                <Footer/>
-               </Cell>
-               
+               </Cell> */}  
            </Grid>
            
         </div>

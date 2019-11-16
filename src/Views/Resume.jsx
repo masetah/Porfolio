@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 import Education from '../Components/Education';
 import Experience from '../Components/Experience';
 import Skills from '../Components/Skills';
@@ -78,7 +78,7 @@ class Resume extends Component {
                     <hr style={{borderTop:'3px solid #e22947'}}/>
                 </Cell>
             </Grid>
-           <Footer/>
+           {/* <Footer/> */}
         </div>
         )
     }
