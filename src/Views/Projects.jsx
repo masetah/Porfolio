@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ProjectCard from '../Components/ProjectCard.jsx';
-
-// import Footer from '../Components/Footer';
+import Footer from '../Components/Footer';
 import {
     Tabs, 
     Tab, 
@@ -133,7 +132,7 @@ class Projects extends Component {
                         <div className="content">{this.toggleCategories()}</div> 
                     </Cell>
                 </Grid>
-                {/* <Footer/> */}
+                <Footer/>
         </div>
         )
     }

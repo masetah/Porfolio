@@ -32,7 +32,7 @@ class Contact extends Component {
                    </FormGroup>
 
                    <FormGroup row>
-                   <Label for="phone" sm={2}>phone</Label>
+                   <Label for="phone" sm={2}>Phone</Label>
                    <Col sm={10}>
                    <Input type="tel" name="phone" placeholder="000-000-0000" />
                    </Col>
@@ -41,7 +41,7 @@ class Contact extends Component {
                    <FormGroup row>
                    <Label for="email" sm={2}>Email</Label>
                    <Col sm={10}>
-                   <Input type="email" name="email" id="exampleEmail" placeholder="Your_Name@company.com" />
+                   <Input type="email" name="email" placeholder="Your_Name@company.com" />
                    </Col>
                    </FormGroup>
 
@@ -53,14 +53,14 @@ class Contact extends Component {
                    </FormGroup>
 
                    <FormGroup row>
-                   <Label for="company" sm={2}>Company</Label>
+                   <Label for="company" id="company-label" sm={2}>Company </Label>
                    <Col sm={10}>
-                   <Input type="text" name="company"  placeholder="Company Name" />
+                   <Input type="text" name="company" id="company-input" placeholder="Company Name" />
                    </Col>
                    </FormGroup>
 
                     <FormGroup row>
-                    <Label for="message" sm={2}>Message</Label>
+                    <Label for="message" id="message-label" sm={2}>Message</Label>
                     <Col sm={10}>
                     <Input type="textarea" name="message" />
                     </Col>
@@ -82,13 +82,16 @@ class Contact extends Component {
                     <Button>Submit</Button>
                     </Col>
                     </FormGroup>
-
                     </Form>
                     </div>
                     </div>
                </Cell>
+               <Cell col={12}>
+               <Footer/>
+               </Cell>
+               
            </Grid>
-           <Footer/>
+           
         </div>
         )
     }

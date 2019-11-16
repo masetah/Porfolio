@@ -13,7 +13,6 @@ html{
   width: 100%;
   height: 100%;
   /* margin: auto; */
-  margin-bottom:60px;
   background: #52c234;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -86,7 +85,7 @@ html{
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
   margin-bottom: 60px;
 }
 
@@ -122,17 +121,19 @@ html{
 }
 /* Footer */
 .footer{
-  grid-column: 1/3;
-  grid-row:3/4;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 60px;
-  width: 100%;
-  background-color: RGB(248, 249, 251);
   color: black;
-  display: inline-block;
+  display: flex;
   align-content: center;
+  width:100%
+}
+.footer-icons a{
+padding:5px;
+}
+
+.social-links i{
+  color:white;
+  font-size: 5em;
+  padding: 15px;
 }
 /* resume page css */
 .resume-right-col{
@@ -149,17 +150,26 @@ html{
   font-size: 5em;
   padding: 8px;
 }
+.contact-body{
+  margin-bottom: 60px;
+}
 .contact-me{
   padding:3%;
   border-radius: 10px;
   background: #52c234;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 60px;
 }
 .contact-form{
   margin:5%;
 }
-
+#company-label{
+  padding-left:5px;
+}
+#message-label{
+  padding-left:5px;
+}
 /* Images */
 .logo{
   height: 30px;
