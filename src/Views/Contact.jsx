@@ -15,7 +15,7 @@ class Contact extends Component {
                    alt="Mase Taherian"
                    style={{height: '225px', borderRadius: '25px'}}
                    />
-                   <p style={{width: '60%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I'd would enjoy discussing any opportunities your organization may have available.</p>
+                   <p style={{width: '60%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I would enjoy discussing any opportunities your organization may have available.</p>
                </Cell>
                <Cell col={6}>
                    <div className="contact-me">
