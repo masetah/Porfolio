@@ -16,6 +16,8 @@ class Contact extends Component {
                    style={{height: '225px', borderRadius: '25px'}}
                    />
                    <p style={{width: '60%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I would enjoy discussing any opportunities your organization may have available.</p>
+                   <h5><i class="fas fa-phone-square"/>   (817) 832-1355</h5>
+                   <h5><i class="fas fa-envelope-square"></i>   MaseTaherian@gmail.com</h5>
                </Cell>
                <Cell col={6}>
                    <div className="contact-me">
