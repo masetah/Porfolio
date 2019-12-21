@@ -19,12 +19,15 @@ class Resume extends Component {
                     <h5>Location</h5>
                     <p>Dallas, Tx</p>
                     <h5>Phone</h5>
-                    <p>(817) 832-1355</p>
+                    <a href="tel: 817-832-1355"><p>(817) 832-1355</p></a>
                     <h5>Email</h5>
-                    <p>MaseTaherian@gmail.com</p>
+                    <a href="mailto: masetaherian@gmail.com"><p>MaseTaherian@gmail.com</p></a>
                     <h5>Web</h5>
                     <p>masetaherian.com</p>
                     <hr style={{borderTop:'3px solid #833fb2', width: '50%'}}/>
+                    
+                    <a style={{paddingLeft:"4px"}} href='Mase-Taherian-Resume.pdf' download><img src="Logos/resume.png" alt="resume-icon"></img></a>
+                    <p>Download</p>
                 </Cell>
                 <Cell col={8} className="resume-right-col">
                     <h2>Education</h2>
