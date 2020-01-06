@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import Projects from './Projects'
+import Resume from './Resume'
+import Contact from './Contact'
 // import Footer from '../Components/Footer';
 class Home extends Component {
     render() {
@@ -11,12 +14,6 @@ class Home extends Component {
                     <h1>MASE TAHERIAN</h1>
                     <h5>Dallas, Tx</h5>
                     </div>
-
-                    {/* <img  
-                        src="https://icons-for-free.com/iconfiles/png/512/internet+web+webpage+website+window+icon-1320168140328914271.png" 
-                        alt="web page icon"
-                        className="web-page-icon"
-                    /> */}
                 </Cell>
                 </Grid>
                 <div className="info-div">
@@ -39,8 +36,18 @@ class Home extends Component {
                     </Cell>
                 </Grid>
                 </div>
-
-            {/* <Footer/> */}
+                <div style={{background:'white'}}>
+                    <h2>Projects</h2>
+                    <Projects />
+                </div>
+                <div style={{background:'#27221F', color:'white'}} >
+                    <h2>About</h2>
+                    <Resume />
+                </div>
+                <div >
+                    <h2> Contact </h2>
+                    <Contact />
+                </div>
         </div>
         )
     }

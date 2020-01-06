@@ -18,6 +18,13 @@ class Projects extends Component {
         if(this.state.activeTab===0){
             return(
                 <div className="projects-grid">
+                    <ProjectCard
+                    title="O&S Landscaping"
+                    backgroundURL="Os-image.png"
+                    description="This stunning mobile friendly site was designed for a landscaping business."
+                    githubLink="https://github.com/masetah/OS"
+                    liveDemoLink="https://www.oslawn.com"
+                    />
                     {/* APPRAISEME APP */}
                     <ProjectCard
                     title="AppPraise Me"
@@ -64,6 +71,13 @@ class Projects extends Component {
             }else if(this.state.activeTab===1){
             return(
                 <div className="projects-grid">
+                    <ProjectCard
+                    title="O&S Landscaping"
+                    backgroundURL="Os-image.png"
+                    description="This will be where the description for the project goes."
+                    githubLink="https://github.com/masetah/OS"
+                    liveDemoLink="https://www.oslawn.com"
+                    />
                     {/* APPRAISEME APP */}
                     <ProjectCard
                     title="AppPraise Me"
