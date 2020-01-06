@@ -41,7 +41,6 @@ class Home extends Component {
                     <Projects />
                 </div>
                 <div style={{background:'#27221F', color:'white'}} >
-                    <h2>About</h2>
                     <Resume />
                 </div>
                 <div >
