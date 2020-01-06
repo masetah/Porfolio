@@ -20,7 +20,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <ProjectCard
                     title="O&S Landscaping"
-                    backgroundURL="Os-image.png"
+                    backgroundURL="OS-image.png"
                     description="This stunning mobile friendly site was designed for a landscaping business."
                     githubLink="https://github.com/masetah/OS"
                     liveDemoLink="https://www.oslawn.com"
@@ -73,8 +73,8 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <ProjectCard
                     title="O&S Landscaping"
-                    backgroundURL="Os-image.png"
-                    description="This will be where the description for the project goes."
+                    backgroundURL="OS-image.png"
+                    description="This stunning mobile friendly site was designed for a landscaping business."
                     githubLink="https://github.com/masetah/OS"
                     liveDemoLink="https://www.oslawn.com"
                     />
