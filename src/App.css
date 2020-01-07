@@ -73,7 +73,17 @@ html{
   font-size: 5em;
   padding: 15px;
 }
+.contact-links i{
+  color:green;
+  font-size: 5em;
+  padding: 15px;
+}
 
+.home-projects{
+  text-align: center;
+  background:white;
+  padding-top: 25px;
+}
 .projects-grid{
   display: flex;
   flex-wrap: wrap;
@@ -92,10 +102,11 @@ html{
   text-align: center;
   justify-content: center;
   width: 85%;
-  height: 550px;
-  background: white;
+  height: 600px;
+  background: lightgray;
   color: black;
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 .contact-grid h2{
   font-family: 'Anton', sans-serif;

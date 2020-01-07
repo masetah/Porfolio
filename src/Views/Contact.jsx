@@ -16,8 +16,20 @@ class Contact extends Component {
                    style={{height: '225px', borderRadius: '25px'}}
                    />
                    <p style={{width: '60%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I would enjoy discussing any opportunities your organization may have available.</p>
-                   <h5><a href="tel:817-832-1355" style={{color:'black'}} ><i className="fas fa-phone-square" />   (817) 832-1355 </a></h5>
-                   <h5><a href="mailto:masetaherian@gmail.com" style={{color:'black'}} ><i className="fas fa-envelope-square"> </i>   MaseTaherian@gmail.com</a></h5>
+
+                   <div className="contact-links">
+                        <a href="https://www.linkedin.com/in/masetaherian/" rel="noopener noreferrer" target="_blank">
+                            <i className="fab fa-linkedin-square" aria-hidden="true"/>
+                        </a>
+
+                        <a href="mailto:masetaherian@gmail.com" >
+                            <i className="fas fa-envelope-square"/>
+                        </a>
+
+                        <a href="tel:817-832-1355"  >
+                            <i className="fas fa-phone-square" />
+                        </a>
+                    </div>
                </Cell>
                <Cell col={6}>
                    <div className="contact-me">

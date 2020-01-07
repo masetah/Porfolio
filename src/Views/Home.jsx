@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Projects from './Projects'
-import Resume from './Resume'
 import Contact from './Contact'
 // import Footer from '../Components/Footer';
 class Home extends Component {
@@ -36,15 +35,11 @@ class Home extends Component {
                     </Cell>
                 </Grid>
                 </div>
-                <div style={{background:'white'}}>
-                    <h2>Projects</h2>
+                <div className="home-projects">
+                    <h2>My Projects</h2>
                     <Projects />
                 </div>
-                <div style={{background:'#27221F', color:'white'}} >
-                    <Resume />
-                </div>
                 <div >
-                    <h2> Contact </h2>
                     <Contact />
                 </div>
         </div>
