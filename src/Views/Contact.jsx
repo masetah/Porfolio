@@ -8,14 +8,14 @@ class Contact extends Component {
         return (
         <div className="contact-body">
            <Grid className="contact-grid">
-               <Cell col={6}>
+               <Cell col={6} >
                    <h2>Mase Taherian</h2>
                    <img 
                    src="IMG_6956.png"
                    alt="Mase Taherian"
                    style={{height: '225px', borderRadius: '25px'}}
                    />
-                   <p style={{width: '60%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I would enjoy discussing any opportunities your organization may have available.</p>
+                   <p style={{width: '90%', margin: 'auto', paddingTop: '1em'}}>Thank you for visiting my site. I would enjoy discussing any opportunities your organization may have available. Select an option below to connect with me directly or fill the Contact Me form out to have a message sent to me.</p>
 
                    <div className="contact-links">
                         <a href="https://www.linkedin.com/in/masetaherian/" rel="noopener noreferrer" target="_blank">

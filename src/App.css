@@ -79,10 +79,29 @@ html{
   padding: 15px;
 }
 
+.home-skills{
+  text-align: center;
+  background:black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.home-skills h2{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
 .home-projects{
   text-align: center;
-  background:white;
+  background:lightgray;
   padding-top: 25px;
+}
+.home-projects h2{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
 }
 .projects-grid{
   display: flex;
@@ -102,11 +121,12 @@ html{
   text-align: center;
   justify-content: center;
   width: 85%;
-  height: 600px;
+  /* height: 600px; */
   background: lightgray;
   color: black;
   margin-bottom: 20px;
   border-radius: 15px;
+
 }
 .contact-grid h2{
   font-family: 'Anton', sans-serif;
@@ -129,6 +149,7 @@ html{
   font-size: 66px;
   padding-right: 5rem;
 }
+
 /* Footer */
 .footer{
   background: #52c234;  /* fallback for old browsers */
@@ -172,7 +193,8 @@ padding:5px;
   background: #52c234;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  margin-bottom: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .contact-form{
   margin:5%;

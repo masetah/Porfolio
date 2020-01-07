@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Projects from './Projects'
 import Contact from './Contact'
+import Skills from '../Components/Skills'
+
 // import Footer from '../Components/Footer';
 class Home extends Component {
     render() {
@@ -34,6 +36,10 @@ class Home extends Component {
                         </div>
                     </Cell>
                 </Grid>
+                </div>
+                <div className="home-skills">
+                    <h2>My Skills Locker</h2>
+                    <Skills />
                 </div>
                 <div className="home-projects">
                     <h2>My Projects</h2>
