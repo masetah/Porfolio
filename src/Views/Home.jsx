@@ -12,7 +12,7 @@ class Home extends Component {
             <Grid className="banner">
                 <Cell col={12}>
                     <div >
-                    <h1>MASE TAHERIAN</h1>
+                    <h1>MASE TAHERIAN, PMP</h1>
                     <h5>Dallas, Tx</h5>
                     </div>
                 </Cell>
