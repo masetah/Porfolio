@@ -51,6 +51,10 @@ class Skills extends Component {
                     <i className="fab fa-github-square"></i>
                     <p style={{color: "white", textAlign:"center"}}>Github</p> 
                     </div>
+                    <div>
+                    <i className="fab fa-gitlab" aria-hidden="true"/>
+                    <p style={{color: "white", textAlign:"center"}}>Gitlab</p> 
+                    </div>
                 </div>
                 </Cell>
             </Grid>
