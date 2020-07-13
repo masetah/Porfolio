@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Skills from "../Components/Skills";
+import Projects from "../Projects";
+import Contact from "../Contact";
+import Skills from "../../Components/Skills";
 
 class Home extends Component {
   render() {
@@ -15,8 +15,7 @@ class Home extends Component {
               <h5>Dallas, Tx</h5>
             </div>
           </Cell>
-        </Grid>
-        <div className="info-div">
+          <div className="info-div">
           <Grid>
             <Cell col={12}>
               <h2>Full Stack Software Engineer</h2>
@@ -51,6 +50,8 @@ class Home extends Component {
             </Cell>
           </Grid>
         </div>
+        </Grid>
+        
         <div className="home-skills">
           <h2>My Skills Locker</h2>
           <Skills />
