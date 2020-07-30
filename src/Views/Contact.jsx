@@ -9,7 +9,7 @@ class Contact extends Component {
         <div className="contact-body">
            <Grid className="contact-grid">
                <Cell col={6} >
-                   <h2>Mase Taherian</h2>
+                   <h2>Mase Taherian, PMP</h2>
                    <img 
                    src="IMG_6956.png"
                    alt="Mase Taherian"

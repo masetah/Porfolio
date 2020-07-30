@@ -9,21 +9,23 @@ class Home extends Component {
     return (
       <div className="home">
         <Grid className="banner">
+          <div className="info-div">
+          <Grid>
           <Cell col={12}>
             <div>
-              <h1>MASE TAHERIAN</h1>
+              <h1>MASE TAHERIAN, PMP</h1>
               <h5>Dallas, Tx</h5>
             </div>
           </Cell>
-          <div className="info-div">
-          <Grid>
             <Cell col={12}>
-              <h2>Full Stack Software Engineer</h2>
+              <h3>Full Stack Software Engineer</h3>
               <hr />
-              <p>
+              <h3>Project Management Professional</h3>
+              <hr />
+              {/* <p>
                 ReactJS | HTML/CSS | JavaScript | NodeJS | Express | Ruby on
                 Rails | PostgreSQL | MongoDB | REST | Project Management{" "}
-              </p>
+              </p> */}
               <div className="social-links">
                 <a
                   href="https://www.linkedin.com/in/masetaherian/"
@@ -57,7 +59,7 @@ class Home extends Component {
           <Skills />
         </div>
         <div className="home-projects">
-          <h2>My Projects</h2>
+          <h2>My Software Projects</h2>
           <Projects />
         </div>
         <div>

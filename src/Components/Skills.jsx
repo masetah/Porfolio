@@ -12,6 +12,10 @@ class Skills extends Component {
                     <p style={{color: "white", textAlign:"center"}}>ReactJs</p> 
                     </div>
                     <div>
+                    <i className="fab fa-angular" aria-hidden="true"/>
+                    <p style={{color: "white", textAlign:"center"}}>AngularJs</p> 
+                    </div>
+                    <div>
                     <i className="fab fa-js-square" aria-hidden="true"/>
                     <p style={{color: "white", textAlign:"center"}}>JavaScript</p> 
                     </div>
